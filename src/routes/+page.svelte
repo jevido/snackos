@@ -41,6 +41,8 @@
 	<title>The snack list</title>
 </svelte:head>
 
+<span class="bg-green-500 bg-purple-500 bg-red-600"></span>
+
 <div class="contents">
 	<Header bind:search bind:activeFilters />
 	<List {filteredOptions} {activeFilters} />
